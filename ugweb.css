@@ -1,0 +1,649 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.nav1{
+    height: 3rem;
+    background-color: #153D6F;
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.search{
+    
+    background-color: #062446;
+    color: white;
+    height: 25%;
+    width: 25%;
+    position: relative;
+    right: 20%;
+    padding: 10px;
+    color: white;
+}
+
+.arrangeNav1{
+    position: relative;
+    left: 10rem;
+}
+
+.nav2{
+    height: 5rem;
+    background-color: #ffffff;
+    color: #153D6F;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    
+}
+.arrangeNav2{
+    position: relative;
+    right: 10rem;
+    top: 10px;
+    font-weight: 600;
+}
+.arrangeNav2:hover{
+    color: #b29b69;
+}
+
+.logoNtext{
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    right: 25rem;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Helvetica;
+    
+
+}
+
+.give{
+    padding: 5px;
+    border: 1px solid yellowgreen;
+    
+}
+input{
+    border: none;
+    background-color: #062446;
+    height: 40px;
+    padding: 5px;
+    font-size: medium;
+    
+}
+
+
+select{
+    width: 20px;
+    border: none;
+}
+
+
+.logo{
+    position: relative;
+    right: 60px;
+    top: 60px;
+    width: 4rem;
+    height: 4rem;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.picbar{
+    display: flex;
+    height: 55rem;
+    object-fit: cover;
+    width: 100%;
+   
+}
+
+
+/* NewsSection */
+
+.news{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 10px;
+    padding-top: 80px;
+    
+}
+
+.leftNews{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    position: relative;
+    left: 5%;
+
+}
+
+.rightNews{
+    width: 28%;
+
+}
+
+                /* Left News Section */
+.newsEdit{
+     font-size: 30px;
+     font-weight: 550;
+  }
+
+  .hall{
+      margin-top: 2rem;
+      height: 309.333px;
+      width: 404px;
+    }
+
+.date{
+    color: #bbbbbb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.Learning-center{
+    display: flex;
+    line-height: 1.5;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+                                    /* Right News section */
+
+.exploreEdit{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 30px;
+   line-height: 1.5;
+}
+
+.explore{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: flex;
+    
+
+}
+
+.button, button{
+    margin: 0px;
+    font-family: 'Montserrat';
+    border: none;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    background-color: #153d6b;
+    height: 20px;
+    width:40px;
+    position: relative;
+    left: 120px;
+}
+
+.Go{
+    color: white;
+    text-decoration: none;
+}
+                
+
+.brief{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.briefmain{
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: Black;
+}
+
+.briefmain:hover{
+    color: #153e70;
+}
+
+
+hr{
+    background-color: #f6f6f6;
+}
+
+
+
+                            /* <!-- starting find out more section --> */
+
+.keyDocs{
+    margin-top: 5%;
+    height: 22rem;
+    background-image: url(images/Legon_Tower.jpg);
+    background-size: cover;
+    background-position: center left ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainkeydocs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    line-height: 2.5;
+}
+
+.keydocs1{
+    font-weight: 600;
+    font-family: 'Montserrat';
+    
+}
+
+.keydocs2{
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+
+.keybutton{
+    background-color: #ba9d65;
+    margin-top: 1%;
+    width: 25%;
+    height: 10%;
+    position: relative;
+    left: 1%;
+    font-size: 13px;
+}
+
+.keybutton:hover{
+    background-color: #153e70;
+}
+
+
+
+
+                            /* <!-- Upcoming Events Section --> */
+.Events{
+    display: flex;
+    height: 12rem;
+    background-color: #f8f5ee;
+    padding: 3%;
+    padding-left: 15%;
+}
+
+.main-events{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.UpNview{
+    display: flex;
+    border-bottom: 1px solid #e0ddd6;
+}
+
+.UpEvents{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    position: relative;
+    left: 2%;
+}
+
+.viewEvent{
+    font-size: 13px;
+    margin-bottom: 5rem;
+    margin-left: 500px;
+    text-decoration: none;
+}
+
+.arroView{
+    display: flex;
+    gap: 2rem;
+}
+
+.arrow{
+    height: .7rem;
+    width: .7rem;
+    margin-left: 20px;
+    
+}
+
+.eventStructure{
+    display: flex;
+    gap: 3%;
+    margin-top: 2rem;
+}
+
+.main-feb{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-right: 2px solid #eae9e5;
+
+}
+
+.Feb{
+    color: #b9b4b6;
+    font-size: 13px;
+
+}
+
+.number{
+    color: #153d6b;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Mat-ceremonies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5%;
+}
+
+.matEdit{
+    display: flex;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.matEdit:hover{
+    color: #ba9d65;
+    text-decoration: underline;
+}
+
+.subVenue{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+.matVenue{
+    color: #666870;
+    font-weight: 600;
+    
+}
+
+.MultipleVenue{
+    
+    font-weight: 15px;
+    color: #434343;
+}
+
+
+/* <!-- Starting announcements and Featured Links --> */
+
+
+.Featured-Announcement{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+.FtLinks{
+    height: 50rem;
+    display: flex;
+    padding-top: 5%;
+    margin-left: 17%;
+}
+
+                            /* Annoucements Section */
+
+.announcements-header{
+    width: 45%;
+    line-height: 2;
+}
+
+.AnnHead{
+    font-size: 25px;
+    font-weight: 600;
+}
+.announcements{
+    margin-top: -5%;
+    
+}
+
+.flBrief{
+    font-weight: 600;
+    margin-top: 10%;
+    font-size: 14px;
+}
+
+.flBrief:hover{
+    color: #153e70;
+    text-decoration: underline;
+}
+
+.flDate{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 600;
+    color: #444748;
+    font-size: 13px;
+}
+
+.annhr{
+    width: 5%;
+    margin-bottom: 5%;
+}
+
+.flButton{
+    width: 50%;
+    height: 1%;
+    background-color: white;
+    color: black;
+    border: 1px solid #b39863;
+    padding: 1%;
+    margin-top: 20rem;
+}
+
+
+
+
+                            /* Featured Links Section */
+.FeaturedLinks{
+    padding: 5%;
+   
+}
+
+.FtHead{
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.TheLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    border-right: 2px solid #b39863;
+    background-color: #f3f7ff;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.LinkTitle{
+    line-height: 1.5;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+    color: #434343;
+}
+
+.LinkTitle:hover{
+    text-decoration: underline;
+}
+
+                        /* Video Nav */
+
+.main-video{
+    height: 5rem;
+    background-color: #ece9e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.actual-video{
+    height: 80vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #4b6e9a;
+}
+
+
+.video-highlights{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 0.3;
+    overflow: hidden;
+   
+}
+
+.overlay-text{
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensures text is visible */
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Adds contrast */
+    
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+    .overlay-text {
+    font-size: 1.5rem;
+    }
+}
+
+                        /* the start of the footer */
+        
+.footer {
+    background-color: #153e70;
+    color: white;
+    padding: 30px 40px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.logo-contact {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 300px;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.footer-logoNtext {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.footer-ofGhana {
+    display: block;
+    font-weight: bold;
+}
+
+.header4 {
+    color: #b39863;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.collegesInfo, .quickLinks, .socials, .admissions,
+.alumni {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: 250px;
+}
+
+.give2 {
+    padding: 5px 10px;
+    color: white;
+    width: 9rem;
+    height: 2.5rem;
+    background: transparent;
+    border: 1px solid #b39863;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensure alignment under the button */
+    gap: 0.5rem; /* Space between the button and icons */
+}
+
+.socialIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.admin-alumni {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer-bottom {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
